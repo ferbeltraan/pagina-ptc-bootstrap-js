@@ -1,0 +1,44 @@
+body {
+    margin: 0px;
+    background-color: #827458;
+}
+
+body button{
+    background-color: #D39C5C;
+}
+/**/
+body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .custom-menu {
+            background-color: #d8a15c;
+            min-height: 55px;
+            box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
+        }
+
+        .custom-menu .container {
+            max-width: 1100px;
+        }
+
+        /* Icono */
+        .logo {
+            width: 35px;
+            height: 35px;
+            object-fit: contain;
+        }
+
+        /* Enlaces */
+        .custom-menu .head-link {
+            color: #3b1008;
+            font-family: Georgia, serif;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 10px 35px;
+            text-decoration: none;
+        }
+
+        .custom-menu .head-link:hover {
+            color: #FFFFFF;
+        }
