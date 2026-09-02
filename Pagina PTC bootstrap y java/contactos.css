@@ -1,0 +1,92 @@
+body {
+    background-color: #f5f0e6;
+    color: #554343;
+    font-family: Georgia, serif;
+}
+
+.panel-info {
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+    height: 100%;
+    text-align: center;
+    padding: 15px;
+}
+
+.icono {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+    margin-bottom: 8px;
+}
+
+.titulo {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.dato {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #403939;
+}
+
+.horario {
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+    padding: 15px 45px 30px;
+}
+
+.titulo-horario {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.tabla-horario {
+    margin: auto;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+.tabla-horario th {
+    background-color: #fff3b5;
+    font-weight: normal;
+    text-align: center;
+    border: 1px solid #999;
+    padding: 7px;
+}
+
+.tabla-horario td {
+    text-align: center;
+    border: 1px solid #999;
+    padding: 25px 10px;
+}
+
+@media (max-width: 576px) {
+
+    .horario {
+        padding: 15px;
+    }
+
+    .titulo-horario {
+        font-size: 24px;
+    }
+
+    .tabla-horario {
+        width: 100%;
+    }
+
+    .tabla-horario td {
+        padding: 18px 5px;
+        font-size: 14px;
+    }
+}
+
+.sidespace{
+    padding: 0px 45px 0px 45px;
+}
